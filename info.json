@@ -1,6 +1,6 @@
 {
   "name": "jargtestmod",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "factorio_version": "0.18",
   "title": "jargtestmod",
   "author": "justarandomgeek",
@@ -8,8 +8,10 @@
   "contact": "justarandomgeek@gmail.com",
   "description": "An empty mod for testing release scripts",
   "dependencies": [],
-  "packageIgnore": [
-    "*.zip"
-  ],
-  "noPush": true
+  "package":{
+    "ignore":[ "*.zip" ],
+    "no_git_push":true,
+    "scripts":{
+    }
+  }
 }
