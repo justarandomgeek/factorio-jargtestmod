@@ -12,6 +12,7 @@
     "ignore":[ "*.zip" ],
     "no_git_push":true,
     "scripts":{
+      "prepublish": "fail.sh"
     }
   }
 }
