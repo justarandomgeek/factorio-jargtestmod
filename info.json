@@ -12,6 +12,9 @@
     "ignore":[ "*.zip" ],
     "no_git_push":true,
     "scripts":{
+      "prepackage": "echo prepackage",
+      "prepublish": "echo prepublish",
+      "publish": "echo publish"
     }
   }
 }
