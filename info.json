@@ -9,7 +9,6 @@
   "description": "An empty mod for testing release scripts",
   "dependencies": [],
   "package":{
-    "ignore":[ "*.zip" ],
     "no_git_push":true,
     "scripts":{
       "prepackage": "echo prepackage",
