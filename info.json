@@ -8,7 +8,6 @@
   "contact": "justarandomgeek@gmail.com",
   "description": "An empty mod for testing release scripts",
   "package":{
-    "no_git_push":true,
     "scripts":{
       "prepackage": "echo prepackage",
       "prepublish": "echo prepublish",
