@@ -9,9 +9,9 @@
   "description": "An empty mod for testing release scripts",
   "package":{
     "scripts":{
-      "prepackage": "echo prepackage $FACTORIO_MODNAME $FACTORIO_MODVERSION",
-      "prepublish": "echo prepublish $FACTORIO_MODNAME $FACTORIO_MODVERSION",
-      "publish": "echo publish $FACTORIO_MODNAME $FACTORIO_MODVERSION"
+      "prepackage": "echoenv.sh prepackage",
+      "prepublish": "echoenv.sh prepublish",
+      "publish": "echoenv.sh publish"
     }
   }
 }
