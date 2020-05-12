@@ -9,9 +9,9 @@
   "description": "An empty mod for testing release scripts",
   "package":{
     "scripts":{
-      "prepackage": "echoenv.sh prepackage",
-      "prepublish": "echoenv.sh prepublish",
-      "publish": "echoenv.sh publish"
+      "prepackage": "./echoenv.sh prepackage",
+      "prepublish": "./echoenv.sh prepublish",
+      "publish": "./echoenv.sh publish"
     }
   }
 }
