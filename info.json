@@ -7,11 +7,15 @@
   "homepage": "",
   "contact": "justarandomgeek@gmail.com",
   "description": "An empty mod for testing release scripts",
+  "dependencies": ["base"],
   "package":{
     "scripts":{
       "prepackage": "./echoenv.sh prepackage",
       "prepublish": "./echoenv.sh prepublish",
       "publish": "./echoenv.sh publish"
-    }
+    },
+    "ignore": [
+      "test/**"
+    ]
   }
 }
