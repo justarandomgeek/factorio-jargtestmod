@@ -9,7 +9,6 @@
   "description": "An empty mod for testing release scripts",
   "dependencies": ["base"],
   "package":{
-    "git_publish_branch": null,
     "scripts":{
       "compile": "./echoenv.sh compile",
       "prepackage": "./echoenv.sh prepackage",
