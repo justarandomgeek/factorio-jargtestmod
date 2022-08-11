@@ -1,7 +1,3 @@
 #!/bin/bash
-echo "$1 $FACTORIO_MODNAME $FACTORIO_MODVERSION"
-sleep 1s
-echo "foo"
-sleep 1s
-echo "bar"
+echo "$1 $FACTORIO_MODNAME $FACTORIO_MODVERSION $FACTORIO_MODPACKAGE"
 sleep 1s

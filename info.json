@@ -10,10 +10,10 @@
   "dependencies": ["base"],
   "package":{
     "scripts":{
-      "compile": "./echoenv.sh compile",
-      "prepackage": "./echoenv.sh prepackage",
-      "prepublish": "./echoenv.sh prepublish",
-      "publish": "./echoenv.sh publish"
+      "compile": "bash ./echoenv.sh compile",
+      "prepackage": "bash ./echoenv.sh prepackage",
+      "prepublish": "bash ./echoenv.sh prepublish",
+      "publish": "bash ./echoenv.sh publish"
     },
     "ignore": [
       "test/**"
