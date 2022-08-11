@@ -1,6 +1,6 @@
 {
   "name": "jargtestmod",
-  "version": "0.0.180",
+  "version": "0.0.181",
   "factorio_version": "0.18",
   "title": "jargtestmod",
   "author": "justarandomgeek",
@@ -13,7 +13,10 @@
       "compile": "bash ./echoenv.sh compile",
       "prepackage": "bash ./echoenv.sh prepackage",
       "prepublish": "bash ./echoenv.sh prepublish",
-      "publish": "bash ./echoenv.sh publish"
+      "publish": "bash ./echoenv.sh publish",
+      "postpublish": "bash ./echoenv.sh postpublish",
+      "datestamp": "bash ./echoenv.sh datestamp",
+      "version": "bash ./echoenv.sh version"
     },
     "ignore": [
       "test/**"
