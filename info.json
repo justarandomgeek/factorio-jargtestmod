@@ -19,7 +19,13 @@
       "version": "bash ./echoenv.sh version"
     },
     "ignore": [
-      "test/**"
+      "test/**",
+      "extra/**"
+    ],
+    "extra": [
+      {
+        "root": "extra"
+      }
     ]
   }
 }
