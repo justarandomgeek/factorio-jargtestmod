@@ -10,7 +10,8 @@
   "dependencies": ["base"],
   "package":{
     "scripts":{
-      "test": "bash ./echoenv.sh test",
+      "test": "fmtk run test2",
+      "test2": "bash ./echoenv.sh test",
       "prepackage": "bash ./echoenv.sh prepackage",
       "prepublish": "bash ./echoenv.sh prepublish",
       "publish": "bash ./echoenv.sh publish",
