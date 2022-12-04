@@ -10,7 +10,7 @@
   "dependencies": ["base"],
   "package":{
     "scripts":{
-      "compile": "bash ./echoenv.sh compile",
+      "test": "bash ./echoenv.sh test",
       "prepackage": "bash ./echoenv.sh prepackage",
       "prepublish": "bash ./echoenv.sh prepublish",
       "publish": "bash ./echoenv.sh publish",
