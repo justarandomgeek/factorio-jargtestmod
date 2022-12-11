@@ -4,7 +4,7 @@
   "factorio_version": "0.18",
   "title": "jargtestmod",
   "author": "justarandomgeek",
-  "homepage": "",
+  "homepage": "https://example.com",
   "contact": "justarandomgeek@gmail.com",
   "description": "An empty mod for testing release scripts",
   "dependencies": ["base"],
@@ -27,6 +27,9 @@
       {
         "root": "extra"
       }
+    ],
+    "gallery": [
+      "gallery/**.png"
     ]
   }
 }
