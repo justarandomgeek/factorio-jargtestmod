@@ -3,7 +3,7 @@ top=top
 top=top
 [section-name]
 entry=text
-entry-with-params=test __1__ __plural_for_parameter_1_{0=|1,2=__2__|ends in 3=__3__|4-5=[virtual-signal=signal-A]|rest=[fluid=water]}__
+entry-with-params=test __1__ __plural_for_parameter_1_{0=|1,2=__2__|ends in 3=__3__\n|4-5=[virtual-signal=signal-A]|rest=[fluid=water]}__
 entry-with-tags=foo [font=default-bold][color=red]bar[img=item/iron-plate][item=iron-plate]baz[/color][/font]\nbox
 #comment
 ;comment
