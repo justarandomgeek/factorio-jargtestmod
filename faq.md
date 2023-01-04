@@ -1,3 +1,5 @@
+# FAQ
+
 ## Is *this* an FAQ?
 
 Maybe
