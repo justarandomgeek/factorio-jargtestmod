@@ -22,7 +22,8 @@
     "ignore": [
       "test/**",
       "extra/**",
-      "**/*.skip"
+      "**/*.skip",
+      "*.skip2"
     ],
     "extra": [
       {

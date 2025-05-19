@@ -1,0 +1,1 @@
+test `*.skip2` pattern - file in root should exclude
