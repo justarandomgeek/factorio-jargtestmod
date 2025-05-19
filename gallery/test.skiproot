@@ -1,0 +1,1 @@
+test `*.skiproot` pattern - file in subfolder should *NOT* exclude

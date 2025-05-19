@@ -23,7 +23,7 @@
       "test/**",
       "extra/**",
       "**/*.skip",
-      "*.skip2"
+      "*.skiproot"
     ],
     "extra": [
       {
