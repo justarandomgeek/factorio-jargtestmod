@@ -9,7 +9,7 @@
   "description": "An empty mod for testing release scripts",
   "dependencies": ["base"],
   "package":{
-    "scripts":{
+    "disabled_scripts":{
       "test": "fmtk run test2",
       "test2": "bash ./echoenv.sh test",
       "prepackage": "bash ./echoenv.sh prepackage",
