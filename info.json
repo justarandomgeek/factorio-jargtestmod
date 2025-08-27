@@ -34,9 +34,10 @@
       "gallery/**.png"
     ],
     "sync_portal_details": true,
+    "datestamp_format": "factorioDate",
     "markdown": {
       "base_url": "https://github.com/justarandomgeek/factorio-jargtestmod/blob/master/"
-      
+
     }
-  } 
+  }
 }
