@@ -1,6 +1,6 @@
 {
   "name": "jargtestmod",
-  "version": "2.0.30",
+  "version": "2.0.29",
   "factorio_version": "2.0",
   "title": "jargtestmod",
   "author": "justarandomgeek",
@@ -34,6 +34,7 @@
       "gallery/**.png"
     ],
     "sync_portal_details": true,
+    "datestamp_format": "nonsense",
     "markdown": {
       "base_url": "https://github.com/justarandomgeek/factorio-jargtestmod/blob/master/"
 
