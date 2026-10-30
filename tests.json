@@ -1,0 +1,10 @@
+[
+  {
+    "name": "pass",
+    "scenario": "jargtestmod/pass"
+  },
+  {
+    "name": "fail",
+    "scenario": "jargtestmod/fail"
+  }
+]
