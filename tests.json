@@ -14,5 +14,13 @@
       "format":"tap",
       "filename": "tests.tap"
     }
+  },
+  {
+    "name": "glob",
+    "scenario": "jargtestmod/glob_*"
+  },
+  {
+    "name": "badglob",
+    "scenario": "jargtestmod/badglob_*"
   }
 ]
